@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Primary Colors -->
+    <color name="primary">#344A3C</color>
+    <color name="primary_light">#DCE9DD</color>
+    <color name="forest_green">#344A3C</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#E8DCCB</color>
+    <color name="sage_green">#78917A</color>
+    <color name="terracotta">#D99B80</color>
+
+    <!-- Background Colors -->
+    <color name="background">#F7F3EB</color>
+    <color name="surface">#FFFCF7</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#2D3A34</color>
+    <color name="text_secondary">#6B7A71</color>
+
+    <!-- Patient Status Colors -->
+    <color name="status_safe">#2E7D32</color>
+    <color name="status_warning">#B85C00</color>
+    <color name="status_danger">#B3261E</color>
+    <color name="status_offline">#757575</color>
+
+</resources>

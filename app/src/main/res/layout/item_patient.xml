@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/surface"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Patient Name -->
+        <TextView
+            android:id="@+id/patientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/margaret_johnson_text"
+            android:textColor="@color/text_primary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="VisualLintSystemUi" />
+
+        <!-- Safety Status -->
+        <TextView
+            android:id="@+id/patientStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/safe_at_home_text"
+            android:textColor="#33691E"
+            android:textSize="14sp" />
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/patientLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/location_home_text"
+            android:textColor="#00796B"
+            android:textSize="14sp" />
+
+        <!-- Tracker Battery -->
+        <TextView
+            android:id="@+id/patientBattery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/tracker_battery_85_text"
+            android:textColor="#00796B"
+            android:textSize="14sp" />
+
+        <!-- Last Update -->
+        <TextView
+            android:id="@+id/patientLastUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/last_updated_2_minutes_ago_text"
+            android:textColor="#00796B"
+            android:textSize="12sp" />
+
+        <!-- View Patient Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewPatientButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/view_patient_text"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/primary"
+            app:cornerRadius="14dp"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
