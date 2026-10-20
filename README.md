@@ -123,4 +123,5 @@ What I Learned / Project Goals
 This project is an opportunity to practice native Android development, Java, XML layouts, reusable UI components, input validation, password handling, relational database design, CRUD operations, background tasks, and working with data in a RecyclerView.
 
 Project Status
+
 Work in progress. The current focus is completing reliable local caregiver account and patient management features before moving on to simulated monitoring and alerts.
