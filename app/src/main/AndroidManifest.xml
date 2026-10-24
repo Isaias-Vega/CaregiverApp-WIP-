@@ -43,6 +43,11 @@
             android:name=".PatientDetalisActivity"
             android:exported="false" />
 
+        <!-- Alerts Screen -->
+        <activity
+            android:name=".AlertsActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

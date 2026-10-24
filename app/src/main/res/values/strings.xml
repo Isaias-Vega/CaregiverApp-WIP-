@@ -74,4 +74,23 @@
     <string name="phone_number_optional">Phone Number (Optional)</string>
     <string name="home_address_optional">Home Address (Optional)</string>
     <string name="caregiving_notes_optional">Caregiving Notes (Optional)</string>
+    <string name="alerts_amp_notifications"><![CDATA[Alerts & Notifications]]></string>
+    <string name="stay_informed_about_the_people_you_care_for">Stay informed about the people you care for.</string>
+    <string name="your_alert_overview">Your Alert Overview</string>
+    <string name="_0_active_alerts">0 Active Alerts</string>
+    <string name="no_alerts_have_been_reported">No alerts have been reported.</string>
+    <string name="recent_alerts">Recent Alerts</string>
+    <string name="all">All</string>
+    <string name="active">Active</string>
+    <string name="history">History</string>
+    <string name="no_alerts">No alerts</string>
+    <string name="no_alerts_to_show">No Alerts to Show</string>
+    <string name="safety_notifications_will_appear_here_when_monitoring_is_configured">Safety notifications will appear here when monitoring is configured.</string>
+    <string name="alert_type">Alert type</string>
+    <string name="tracker_battery_low">Tracker Battery Low</string>
+    <string name="margaret_johnson">Margaret Johnson</string>
+    <string name="active_tezt">Active</string>
+    <string name="the_patient_s_tracking_device_has_a_low_battery">The patient\'s tracking device has a low battery.</string>
+    <string name="no_timestamp_available">No timestamp available</string>
+    <string name="view_details">View Details</string>
 </resources>

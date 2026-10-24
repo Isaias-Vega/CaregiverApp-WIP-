@@ -18,6 +18,7 @@ public class HomepageActivity extends AppCompatActivity {
     private RecyclerView patientRecyclerView;
     private PatientAdapter patientAdapter;
     private TextView patientSummaryText;
+    private TextView patientAlertSummary;
     private DatabaseHelper dbHelper;
 
     @Override
@@ -31,6 +32,7 @@ public class HomepageActivity extends AppCompatActivity {
         buttonAddPatient = findViewById(R.id.addPatientButton);
         patientRecyclerView = findViewById(R.id.patientRecyclerView);
         patientSummaryText = findViewById(R.id.patientSummaryText);
+        patientAlertSummary = findViewById(R.id.alertSummaryText);
 
         //Sets new layout
         patientRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -59,6 +61,13 @@ public class HomepageActivity extends AppCompatActivity {
         //Connects RecyclerView to InventoryAdapter
         patientRecyclerView.setAdapter(patientAdapter);
 
+
+        //Find the number of patients being monitored and displays it on the overview
+        patientSummaryText.setText(String.valueOf(patients.size() + " patients are being tracked."));
+
+        //Finds the number of patients in alert status
+        //TODO: Gets number of patients in alert status. Need to implement alerts.
+        patientAlertSummary.setText("WIP");
 
         //Handles Add patient button
         buttonAddPatient.setOnClickListener(v -> {
